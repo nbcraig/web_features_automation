@@ -1,7 +1,8 @@
-from pages.page_object_01 import FormAuthPage
-from pages.page_object_02 import AddRemoveElementPage
-from pages.page_object_03 import ContextMenu
+
 from selenium.common.exceptions import NoSuchElementException
+from pages.add_remove_element_page import AddRemoveElementPage
+from pages.context_menu_page import ContextMenu
+from pages.form_authentication_page import FormAuthPage
 
 # Test for form authentication page
 def test_form_authentication(driver):
